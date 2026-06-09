@@ -6,9 +6,9 @@ import { useState, useEffect } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import { useMap } from "react-leaflet";
 import { useMapEvents } from "react-leaflet";
-import { useGeolocation } from "../hooks/useGeolocation";
+import { useGeolocation } from "../hooks/useGeolocation.js";
 import Button from "./Button";
-import useUrlPosition from "../hooks/useUrlPosition";
+import { useUrlPosition } from "../hooks/useUrlPosition.js";
 
 function Map() {
   const { cities } = useCities();

@@ -35,6 +35,54 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Tatui",
+      "country": "Brazil",
+      "emoji": "https://flagcdn.com/24x18/br.png",
+      "date": "2026-06-09T21:37:39.031Z",
+      "notes": "",
+      "position": {
+        "lat": "-23.345723246176746",
+        "lng": "-47.85198211669922"
+      },
+      "id": 98443198
+    },
+    {
+      "cityName": "Tatui",
+      "country": "Brazil",
+      "emoji": "https://flagcdn.com/24x18/br.png",
+      "date": "2026-06-09T21:39:49.829Z",
+      "notes": "",
+      "position": {
+        "lat": "-23.351239395272657",
+        "lng": "-47.85249710083008"
+      },
+      "id": 98443199
+    },
+    {
+      "cityName": "Tatui",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2026-06-09T22:11:12.389Z",
+      "notes": "",
+      "position": {
+        "lat": "-23.380077240656462",
+        "lng": "-47.855758666992195"
+      },
+      "id": 98443200
+    },
+    {
+      "cityName": "Tatui",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2026-06-09T22:11:25.258Z",
+      "notes": "",
+      "position": {
+        "lat": "-23.395517879373553",
+        "lng": "-47.84580230712891"
+      },
+      "id": 98443201
     }
   ]
 }
