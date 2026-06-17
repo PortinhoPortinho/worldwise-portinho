@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useCities } from "../contexts/CitiesContext";
 import Spinner from "./Spinner";
 import BackButton from "./BackButton";
+import { countryFlag } from "../hooks/useCountryFlag";
 
 const formatDate = (date) =>
   new Intl.DateTimeFormat("en", {
@@ -12,6 +13,15 @@ const formatDate = (date) =>
     year: "numeric",
     weekday: "long",
   }).format(new Date(date));
+
+function UseCountry({ countryCode }) {
+  const flag = countryFlag(countryCode);
+  return (
+    <span>
+      {flag} {countryCode}
+    </span>
+  );
+}
 
 function City() {
   const { id } = useParams();
@@ -24,16 +34,7 @@ function City() {
     [id],
   );
 
-  const flagemojiToPNG = (flag) => {
-    var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt())
-      .map((char) => String.fromCharCode(char - 127397).toLowerCase())
-      .join("");
-    return (
-      <img src={`https://flagcdn.com/24x18/${countryCode}.png`} alt="flag" />
-    );
-  };
-
-  const { cityName, emoji, date, notes } = currentCity;
+  const { cityName, countryCode, date, notes } = currentCity;
 
   if (isLoading) return <Spinner />;
   return (
@@ -41,7 +42,7 @@ function City() {
       <div className={styles.row}>
         <h6>City name</h6>
         <h3>
-          <span>{emoji ? flagemojiToPNG(emoji) : ""}</span> {cityName}
+          <UseCountry countryCode={countryCode} /> {cityName}
         </h3>
       </div>
 

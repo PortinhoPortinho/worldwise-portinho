@@ -3,6 +3,7 @@ import Spinner from "./Spinner";
 import CountryItem from "./CountryItem";
 import Message from "./Message";
 import { useCities } from "../contexts/CitiesContext";
+import { countryFlag } from "../hooks/useCountryFlag";
 
 function CountryList() {
   const { cities, isLoading } = useCities();

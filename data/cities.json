@@ -1,100 +1,52 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "Madrid",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
-      },
-      "id": 17806751
-    },
-    {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
-      "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
-      },
-      "id": 98443197
-    },
-    {
       "cityName": "Tatui",
       "country": "Brazil",
       "emoji": "🇧🇷",
-      "date": "2026-06-09T22:11:12.389Z",
+      "date": "2026-06-11T01:10:01.148Z",
       "notes": "",
       "position": {
-        "lat": "-23.380077240656462",
-        "lng": "-47.855758666992195"
+        "lat": "-23.35092419292868",
+        "lng": "-47.84889221191407"
       },
-      "id": 98443200
-    },
-    {
-      "cityName": "Tatui",
-      "country": "Brazil",
-      "emoji": "🇧🇷",
-      "date": "2026-06-09T22:11:25.258Z",
-      "notes": "",
-      "position": {
-        "lat": "-23.395517879373553",
-        "lng": "-47.84580230712891"
-      },
-      "id": 98443201
+      "id": 1
     },
     {
       "cityName": "Castello de la Plana",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2026-06-09T22:26:26.914Z",
+      "date": "2026-06-11T01:13:07.135Z",
       "notes": "",
       "position": {
-        "lat": "39.99527080014614",
-        "lng": "-0.0025749206542968754"
+        "lat": "40.013153729849954",
+        "lng": "-0.004978179931640626"
       },
-      "id": 98443202
+      "id": 2
     },
     {
-      "cityName": "Tatui",
-      "country": "Brazil",
-      "emoji": "🇧🇷",
-      "date": "2026-06-09T22:26:39.628Z",
+      "cityName": "Fontanes",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2026-06-11T01:13:13.996Z",
       "notes": "",
       "position": {
-        "lat": "-23.35833125007901",
-        "lng": "-47.83756256103516"
+        "lat": "44.308126684886126",
+        "lng": "1.4941406250000002"
       },
-      "id": 98443203
+      "id": 3
     },
     {
-      "cityName": "Castello de la Plana",
+      "cityName": "Ainsa",
       "country": "Spain",
       "emoji": "🇪🇸",
-      "date": "2026-06-09T22:40:02.784Z",
+      "date": "2026-06-11T01:13:28.339Z",
       "notes": "",
       "position": {
-        "lat": "39.996585880995035",
-        "lng": "-0.012016296386718752"
+        "lat": "42.261049162113856",
+        "lng": "0.10986328125000001"
       },
-      "id": 98443204
+      "id": 4
     }
   ]
 }
