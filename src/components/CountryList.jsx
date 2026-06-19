@@ -3,7 +3,6 @@ import Spinner from "./Spinner";
 import CountryItem from "./CountryItem";
 import Message from "./Message";
 import { useCities } from "../contexts/CitiesContext";
-import { countryFlag } from "../hooks/useCountryFlag";
 
 function CountryList() {
   const { cities, isLoading } = useCities();
@@ -13,6 +12,7 @@ function CountryList() {
       <Message message="Add your first country by clicking on a country on the map." />
     );
 
+  //in this case, when a new city is targeted in the map and show in the cities list, this country list replies with the emoji and the country name
   const countries = cities.reduce((arr, city) => {
     if (!arr.map((el) => el.city).includes(city.country))
       return [...arr, { country: city.country, emoji: city.emoji }];

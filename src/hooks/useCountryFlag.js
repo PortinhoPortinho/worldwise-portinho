@@ -9,3 +9,4 @@ export const countryFlag = (flag) => {
 
   return `https://flagcdn.com/24x18/${countryCode}.png`;
 };
+// a function that takes a country code and returns the corresponding flag as an image see more about that at https://danq.me/2026/05/31/iso-country-codes-to-flags/

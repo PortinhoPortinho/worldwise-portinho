@@ -14,15 +14,6 @@ const formatDate = (date) =>
     weekday: "long",
   }).format(new Date(date));
 
-function UseCountry({ countryCode }) {
-  const flag = countryFlag(countryCode);
-  return (
-    <span>
-      {flag} {countryCode}
-    </span>
-  );
-}
-
 function City() {
   const { id } = useParams();
   const { getCity, currentCity, isLoading } = useCities();
@@ -35,14 +26,17 @@ function City() {
   );
 
   const { cityName, countryCode, date, notes } = currentCity;
-
+  const flag = countryFlag(countryCode);
   if (isLoading) return <Spinner />;
   return (
     <div className={styles.city}>
       <div className={styles.row}>
         <h6>City name</h6>
         <h3>
-          <UseCountry countryCode={countryCode} /> {cityName}
+          <span>
+            {flag} {countryCode}
+          </span>
+          {cityName}
         </h3>
       </div>
 
